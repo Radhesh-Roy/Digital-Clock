@@ -13,7 +13,6 @@ class _myTimerState extends State<myTimer> {
   String sec="00";
   String miliSec="00";
   bool isTimer=true;
-
   funTimer()async{
     await Future.delayed(Duration(milliseconds: 1));
 
@@ -35,6 +34,7 @@ class _myTimerState extends State<myTimer> {
         backgroundColor: Colors.white,
         shadowColor: Colors.black,
         elevation: 10,
+
         title: Center(
           child: Text("CODERANGAN", style: TextStyle(color: Color(0xFF3F51B5), fontWeight: FontWeight.bold),
           ),
