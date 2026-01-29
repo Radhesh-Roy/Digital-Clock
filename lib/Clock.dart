@@ -31,6 +31,7 @@ class _myTimerState extends State<myTimer> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+
         backgroundColor: Colors.white,
         shadowColor: Colors.black,
         elevation: 10,
