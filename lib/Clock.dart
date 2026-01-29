@@ -33,6 +33,7 @@ class _myTimerState extends State<myTimer> {
       appBar: AppBar(
 
         backgroundColor: Colors.white,
+
         shadowColor: Colors.black,
         elevation: 10,
 
