@@ -45,7 +45,7 @@ class _myTimerState extends State<myTimer> {
       body: Center(
         child: Card(
           color: Colors.white,
-          elevation: 6,
+          elevation: 5,
           shadowColor: Colors.black,
           child: Container(
             width: 350,
