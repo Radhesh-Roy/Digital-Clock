@@ -66,8 +66,10 @@ class _myTimerState extends State<myTimer> {
                       child: Center(child: Text("${hour}", style: TextStyle(color: Color(0xFF3D5AFE), fontSize: 40, fontWeight: FontWeight.bold),)),
                     ),
                     Padding(
+
                       padding: const EdgeInsets.all(8.0),
                       child: Column(
+
                         children: [
                           Container(
                             height: 5,
