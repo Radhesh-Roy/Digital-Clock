@@ -49,7 +49,9 @@ class _myTimerState extends State<myTimer> {
           shadowColor: Colors.black,
           child: Container(
             width: 350,
+
             height: 200,
+
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               crossAxisAlignment: CrossAxisAlignment.center,
