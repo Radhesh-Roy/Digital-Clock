@@ -26,17 +26,13 @@ class _myTimerState extends State<myTimer> {
       funTimer();
     }
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-
         backgroundColor: Colors.white,
-
         shadowColor: Colors.black,
         elevation: 10,
-
         title: Center(
           child: Text("CODERANGAN", style: TextStyle(color: Color(0xFF3F51B5), fontWeight: FontWeight.bold),
           ),
@@ -44,7 +40,6 @@ class _myTimerState extends State<myTimer> {
       ),
       body: Center(
         child: Card(
-
           color: Colors.white,
           elevation: 5,
           shadowColor: Colors.black,
@@ -52,7 +47,6 @@ class _myTimerState extends State<myTimer> {
             width: 350,
             height: 200,
             child: Column(
-
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
@@ -81,10 +75,8 @@ class _myTimerState extends State<myTimer> {
                             color: Colors.grey,
                           )
                         ],
-
                       ),
                     ),
-
                     Container(
                       height: 50,
                       width: 50,
