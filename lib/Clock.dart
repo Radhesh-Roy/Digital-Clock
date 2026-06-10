@@ -68,6 +68,7 @@ class _myTimerState extends State<myTimer> {
                             width: 5,
                             color: Colors.grey,
                           ),
+
                           SizedBox(height: 10),
                           Container(
                             height: 5,
